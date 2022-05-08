@@ -10,7 +10,7 @@
 "> -->
 <style>
     form{
-        background-color:skyblue;
+        background-color:rgb(120, 138, 109);
                 
     }
     
@@ -18,15 +18,11 @@
 
         </head>
         <body>
-            <!-- <head>Form vaidation</head> -->
             <h1>Students Info</h1>
             <form>
-
-             <p id ="tmessage">
-                <!-- <label for ="input_name">Full name :</label> -->
-              <!-- <input id="input_name" type="text" placeholder="Name">   -->
-                Full name : <input type ="text" name="tname" id="input_name"/> <br>
-                <!-- Email :<input type ="text" name="temail" id ="text_email"/> <br>  -->
+            <p id="tmessage"></p>
+            <p>
+                Full name : <input type ="text" name="tname" id="full_name_input"/> <br>
             </p>
                 <tr>
                     <td>Date of Birth :</td>
@@ -123,21 +119,15 @@
                 </tr>
             <p> 
                 Age : <input type ="text" name="tage" id="input_Age" placeholder="Age" /> <br> </p>
-                <!-- <label for ="input_Age">Age :</label>
-                 <input id="input_Age" type="number" placeholder="Age"></p> -->
+
                <p> Email : <input type ="text" name="temail" id="input_email" placeholder="email" /> <br> </p>
-            <!-- <P> <label for ="input_name">Email :</label>
-                 <input id="input_email" type="text" placeholder="email"></P> -->
+
                  <p> Mobile Number : <input type ="Only_number" name="tnumber" id="input_number" placeholder="enter number" /> <br> </p>
-            <!-- <P> <label for ="input_name">Mobile Number :</label>
-                 <input id="input_number" type="number" placeholder="mobile number"></P> -->
+
                  <p> Address : <input type ="text" name="taddress" id="input_address" placeholder="enter address" /> <br> </p>
-                 <!-- <P> <label for ="input_name"> Address :</label>
-                    <input id="input_address" type="text" placeholder="address"></P> -->
+
                     <p> Section : <input type ="text" name="tsection" id="input_section"  /> <br> </p>
                     <p> Roll no : <input type ="positive number" name="trollno" id="input_rollno"  /> <br> </p>
-                        <!-- <P> <label for ="input_name">Roll no  :</label>
-                            <input id="input_rollno" type="text" placeholder="Roll no of student "></P> -->
 
                             <label for ="select_class">Applying for :</label>
                             <select id ="select_class">
@@ -194,10 +184,10 @@
                          </fieldset>
                          <p>
                             <input type ="button" name ="submit" value ="submit" onclick="CheckFormData() ;"/>
-                              <!-- &nbsp;&nbsp;
-                               <input type="reset"> -->
                                 </p>
                             </fieldset>
             </form>
-            <script src="Form validation.js"></script>
+            <script src="index.js"></script>
         </body>
+
+</html>
